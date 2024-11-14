@@ -10,7 +10,7 @@ import time
 from torch.utils.data import DataLoader
 
 from ogb.linkproppred import PygLinkPropPredDataset, Evaluator
-from evalutors import evaluate_hits, evaluate_mrr, evaluate_auc
+from evaluators import evaluate_hits, evaluate_mrr, evaluate_auc
 from torch_geometric_signed_directed.data import load_directed_real_data
 from torch_geometric.utils import negative_sampling, to_undirected, to_scipy_sparse_matrix
 from torch_geometric_signed_directed.utils import in_out_degree, directed_features_in_out

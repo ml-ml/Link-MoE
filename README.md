@@ -37,15 +37,15 @@
    
 	ogbl-collab
 	```
-	python main.py --device 2 --use_valedges_as_input --data_name ogbl-collab --name collab --l2 0 --lr 0.001 --dropout 0 --num_layers 2 --hidden_channels 64 --score_number 0 --num_layers_predictor 1 --ncnc --neognn --buddy --mlp --n2v --seal --gcn --ncn --use_feature --use_degree --use_cn --use_sp --use_aa --use_ra --use_katz --use_ppr --runs 3 --end_epochs 800 --ratio 0.8 --train_batch_size 60048 --test_batch_size 100000 --kill_cnt 2000 
+	python main.py --device 2 --use_valedges_as_input --data_name ogbl-collab --name collab --l2 0 --lr 0.001 --dropout 0 --num_layers 2 --hidden_channels 64 --score_number 0 --num_layers_predictor 1 --ncnc --neognn --buddy --mlp --n2v --seal --gcn --ncn --use_feature --use_degree --use_cn --use_sp --use_aa --use_ra --use_katz --use_ppr --end_epochs 800 --ratio 0.8 --train_batch_size 60048 --test_batch_size 100000 --kill_cnt 2000 
 	```
 	oglb-ppa
 	```
-	python main.py --device 2 --ratio 0.8 --data_name ogbl-ppa --name ppa --l2 0--lr 0.0001 --dropout 0 --num_layers 3 --hidden_channels 64  --score_number 0 --num_layers_predictor 1 --ncnc --neognn --buddy --mlp --n2v --seal --gcn --ncn --use_feature --use_degree --use_cn --use_sp --use_aa --use_ra --use_katz --use_ppr --runs 3 --end_epochs 500 --train_batch_size 50 --test_batch_size 60048 
+	python main.py --device 2 --ratio 0.8 --data_name ogbl-ppa --name ppa --l2 0--lr 0.0001 --dropout 0 --num_layers 3 --hidden_channels 64  --score_number 0 --num_layers_predictor 1 --ncnc --neognn --buddy --mlp --n2v --seal --gcn --ncn --use_feature --use_degree --use_cn --use_sp --use_aa --use_ra --use_katz --use_ppr --end_epochs 500 --train_batch_size 50 --test_batch_size 60048 
 	 ```
 	ogbl-citation2
 	```
- 	python main.py --device 2 --ratio 0.8 --data_name ogbl-citation2 --name citation2 --l2 0 --lr 0.001 --dropout 0 --num_layers 2 --hidden_channels 64  --score_number 0 --num_layers_predictor 1 --ncnc --neognn --buddy --mlp --n2v --seal --gcn --ncn --use_feature --use_degree --use_cn --use_aa --use_ra --use_katz --runs 3 --train_batch_size 300 --test_batch_size 60048 --end_epochs 30 --kill_cnt 2000 
+ 	python main.py --device 2 --ratio 0.8 --data_name ogbl-citation2 --name citation2 --l2 0 --lr 0.001 --dropout 0 --num_layers 2 --hidden_channels 64  --score_number 0 --num_layers_predictor 1 --ncnc --neognn --buddy --mlp --n2v --seal --gcn --ncn --use_feature --use_degree --use_cn --use_aa --use_ra --use_katz --train_batch_size 300 --test_batch_size 60048 --end_epochs 30 --kill_cnt 2000 
 	```
      
 	When running the codes in Step 1 and Step 2, please follow the provided parameters in 'https://github.com/Juanhui28/HeaRT/tree/master/scripts/hyperparameters/existing_setting_ogb'. 
